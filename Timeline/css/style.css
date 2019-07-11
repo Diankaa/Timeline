@@ -169,10 +169,16 @@ body{
     }
 
     .timeline-content:hover,
-    .launch-content:hover {
+    .launch-content:hover{
         box-shadow: 0 15px 20px rgb(250, 245, 245);
         color: white;
         transform: translateY(-7px);
+      }
+
+    .timeline-data{
+        position: relative;
+        top: 40%;
+        transform: translateY(-50%);
       }
 
 }
